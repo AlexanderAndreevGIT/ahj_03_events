@@ -1,3 +1,30 @@
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.score {
+    padding-left: 4px;
+}
+
+.hits {
+    padding-right: 10px;
+}
+
 .board-container {
     display: flex;
     align-items: center;
@@ -19,6 +46,7 @@
     width: 120px;
     border-width: 10px;
     background-color: rgb(136, 132, 132);
+    cursor: url(../img/cursor-2.png) 40 40, pointer;
 }
 
 .target {
